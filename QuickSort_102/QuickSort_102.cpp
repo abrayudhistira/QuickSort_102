@@ -45,5 +45,6 @@ void q_short(int low, int high)
 
 	//partition the list into two parts:
 	//one containing elements less that or equal to pivot
+	//outher containing elements greather than pivot
 
 }
