@@ -51,4 +51,6 @@ void q_short(int low, int high)
 	
 	i = low + 1;			//Langkah Algoritma No.3
 	j = high;				//Langkah Algoritma No.4
+
+	while (i <= j)			//Langkah Algoritma No.10
 }
