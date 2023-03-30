@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[20];	//array of integers to hold values
-int cmp_count = 0 // 
+int cmp_count = 0; // 
 int mov_count = 0; // number of comparasion
 int n; 
 
@@ -27,4 +27,13 @@ void input() {
 		cout << "<" << (i + 1) << ">";
 		cin >> arr[i];
 	}
+}
+//swaps the element at index x with the element at index y
+void swap(int x, int y)
+{
+	int temp;
+
+	temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
 }
