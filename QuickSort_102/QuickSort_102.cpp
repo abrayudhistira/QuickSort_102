@@ -109,9 +109,9 @@ void display() {
 int main()
 {
 	input();
-		q_short(0, n - 1);						//Sort the array using quick sort
-		display();
-		system("pause");
+	q_short(0, n - 1);						//Sort the array using quick sort
+	display();
+	system("pause");
 
-		return 0;
+	return 0;
 }
