@@ -44,4 +44,6 @@ void q_short(int low, int high)
 		return;
 
 	//partition the list into two parts:
+	//one containing elements less that or equal to pivot
+
 }
